@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url('https://fastcdn.hoyoverse.com/content-v2/plat/101527/251e13d761fe05b084637205df11334b_3452344426225536634.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+img {
+    max-width: 100%;
+}
+
+
+
+  .conteiner {
+    width: 1400px;
+    margin: 0 auto;
+  }
+
+  header {
+    padding: 10px 0;
+  }
+
+  .HOYOVERSE {
+    width: 230px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  a:hover {
+  color: rgb(79, 120, 255);
+}
+
+a.active {
+    color: rgb(79, 120, 255); 
+  font-weight: bold; 
+  text-decoration: underline;
+    border-bottom-width: 2px;
+}
+
+  header nav {
+    float: right;
+    width: 40%;
+  }
+
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+header nav ul li {
+    display: inline-block;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    height: 50px
+}
+
+header nav ul li a {color: white
+    ;}
+
+    h1 {
+     font-size: 8cap;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(1,0,0,1);
+    }
+
+    .Gen {
+      border-radius: 20px;
+      width: 70px;
+      box-shadow: 2px 2px 2px rgb(1, 0, 0);
+    }
+
+    .pin {
+      margin-top: 15cap;
+    }
+
+   .wow {
+      font-size: 20px;
+      color: rgb(255, 255, 255);
+      text-shadow: 2px 2px 5px rgba(1,0,0,1);
+      margin-bottom: 40px;
+  }
+
+  .navbar {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+  }
+
+.ttt {
+  margin-top: 10cap;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  font-size: medium;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(1,0,0,1);
+  box-shadow: 2px 2px 5px rgb(1, 0, 0);
+  cursor: pointer;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background-color 0.3s ease; 
+}
+
+.btn:active {
+  background-color: rgba(0, 0, 0, 0.7);
+  transform: translateY(2px); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+@media (max-width:900px) {
+  body {
+   background-image: url('https://fastcdn.hoyoverse.com/content-v2/plat/101527/251e13d761fe05b084637205df11334b_3452344426225536634.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 800px 900px;
+  }
+
+  h1 {
+     font-size: 5cap;
+    padding-right: 20px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(1,0,0,1);
+    }
+
+    .wow {
+      font-size: 15px;
+      color: rgb(255, 255, 255);
+      text-shadow: 2px 2px 5px rgba(1,0,0,1);
+      margin-bottom: 20px;
+      padding-left: 55px;
+  }
+
+  .btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  
+}
+
+button {
+  width: 130px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  font-size: medium;
+}
+}

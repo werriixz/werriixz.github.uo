@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url('https://i.pinimg.com/1200x/e3/c3/0c/e3c30c9d7f6ec3ed370931abf82fe8b5.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    background-position: center;
+    height: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.conteiner {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 10px 0;
+}
+
+.HOYOVERSE {
+    width: 230px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header nav {
+    float: right;
+    width: 40%;
+}
+
+a:hover {
+    color: rgb(79, 120, 255);
+}
+
+
+
+a.active {
+    color: rgb(79, 120, 255); 
+  font-weight: bold; 
+  text-decoration: underline;
+    border-bottom-width: 2px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    height: 50px
+}
+
+header nav ul li a {
+    color: white;
+}
+
+h1 {
+    font-size: 5cap;
+    margin-left: 30px;
+    margin-top: -50px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(1, 0, 0, 1);
+}
+
+.Gen {
+    border-radius: 20px;
+    width: 70px;
+    box-shadow: 2px 2px 2px rgb(1, 0, 0);
+}
+
+.pin {
+    margin-top: 15cap;
+}
+
+.wow img {
+    border-radius: 30px;
+    width: 500px;
+    margin-top: 35cap;
+    margin-left: 30cap;
+}
+
+.image-container img {
+
+    border-radius: 30px;
+    width: 500px;
+    margin-top: 5cap;
+    margin-left: 13cap;
+    box-shadow: 2px 2px 2px rgb(1, 0, 0);
+
+}
+
+.btm {
+    width: 100px;
+    height: 20px;
+
+
+}
+
+.nv {
+    margin-top: -100px;
+}
+
+.tr {
+    margin-top: 25cap;
+}
+
+.ppp {
+    display: inline-flex;
+    margin-right: 30cap;
+    list-style: none;
+    margin-left: 53cap;
+}
+
+.ttp {
+    width: 50px;
+    height: 10px;
+    font-size: 20px;
+}
+
+.ttpp {
+    width: 105px;
+    height: 10px;
+    font-size: 20px;
+}
+
+.ttppp {
+    width: 100px;
+    height: 10px;
+    font-size: 20px;
+}
+
+.uuu {
+    color: black;
+    padding: 6px;
+    transition: background 0.3s ease;
+}
+
+.uuu:hover {
+    background: linear-gradient(70deg, rgb(255, 255, 255), rgb(203, 192, 255));
+    border-radius: 30px;
+    color: black;
+}
+
+
+.pcc {
+    overflow: hidden;
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.pcc:hover {
+    transform: scale(1.1);
+}
+
+.ptt {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.ptt:hover {
+    transform: scale(1.1);
+}
+
+p {
+    width: 500px;
+    margin-top: 2cap;
+    margin-left: 13cap;
+}
+
+.sss {
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+    border-bottom: 4 solid gray;
+    transition: 0.2s;
+}
+
+.sss:hover {
+    color: rgb(100, 100, 100);
+    text-decoration: underline;
+    border-bottom-width: 2px
+}
+
+.cll {
+    margin-left: 13cap;
+    margin-top: 1cap;
+    color: rgb(198, 198, 198);
+}
+
+.tit {
+    display: inline-flex;
+    list-style: none;
+    margin-left: 0.1cap;
+}
+
+.cvv {
+    margin-left: 51cap;
+    margin-top: 1cap;
+    color: rgb(198, 198, 198);
+}
+
+.ggg {
+    display: inline-flex;
+    list-style: none;
+}
+
+.pip {
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+    border-bottom: 4 solid gray;
+    transition: 0.2s;
+}
+
+.pip:hover {
+    color: rgb(100, 100, 100);
+    text-decoration: underline;
+    border-bottom-width: 2px
+}
+
+.rrr {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.rrr:hover {
+    transform: scale(1.1);
+}
+
+.qqq {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.qqq:hover {
+    transform: scale(1.1);
+}
+
+.eee {
+    display: inline-flex;
+    list-style: none;
+}
+
+.tut {
+    margin-left: 13cap;
+    margin-top: 1cap;
+    color: rgb(198, 198, 198);
+}
+
+.tat {
+    margin-left: 50cap;
+    margin-top: 1cap;
+    color: rgb(198, 198, 198);
+}
+
+.iii {
+    display: inline-flex;
+    list-style: none;
+    margin-left: 0.1cap;
+}
+
+.hhh {
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+    border-bottom: 4 solid gray;
+    transition: 0.2s;
+}
+
+.hhh:hover {
+    color: rgb(100, 100, 100);
+    text-decoration: underline;
+    border-bottom-width: 2px;
+}
+
+.kkk {
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+    border-bottom: 4 solid gray;
+    transition: 0.2s;
+}
+
+.kkk:hover {
+    color: rgb(100, 100, 100);
+    text-decoration: underline;
+    border-bottom-width: 2px
+}
+
+.iii {
+    display: inline-flex;
+    list-style: none;
+    margin-left: 0.1cap;
+}
+
+.vvv {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.vvv:hover {
+    transform: scale(1.1);
+}
+
+.zzz {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.zzz:hover {
+    transform: scale(1.1);
+}
+
+.cop {
+    display: inline-flex;
+    list-style: none;
+}
+
+.coi {
+    margin-left: 13cap;
+    margin-top: 1cap;
+    color: rgb(198, 198, 198);
+}
+
+.cvg {
+    margin-left: 50cap;
+    margin-top: 1cap;
+    color: rgb(198, 198, 198);
+}
+
+.ute {
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+    border-bottom: 4 solid gray;
+    transition: 0.2s;
+}
+
+.ute:hover {
+    color: rgb(100, 100, 100);
+    text-decoration: underline;
+    border-bottom-width: 2px;
+}
+
+.rew {
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+    border-bottom: 4 solid gray;
+    transition: 0.2s;
+}
+
+.rew:hover {
+    color: rgb(100, 100, 100);
+    text-decoration: underline;
+    border-bottom-width: 2px
+}
+
+.for {
+
+    display: inline-flex;
+    list-style: none;
+    margin-left: 0.1cap;
+}
+
+button {
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+    text-shadow: 1px 2px 5px rgba(1, 0, 0, 1);
+    border: none;
+    color: white;
+    margin-right: 10cap;
+    margin-left: 34cap;
+    margin-top: 8cap;
+    margin-bottom: 1cap;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 8px 90px;
+    background: linear-gradient(70deg, rgb(136, 136, 255), rgb(255, 184, 237));
+    transition: background 0.3s ease;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    background: linear-gradient(70deg, rgb(74, 74, 165), rgb(161, 81, 141));
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tee {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.ryy {
+    background: linear-gradient(70deg, rgb(0, 0, 0), rgb(53, 53, 53));
+    margin-top: 10cap;
+    margin-bottom: 2cap;
+}
+
+.pqq {
+    margin-left: 30cap;
+    margin-top: 5cap;
+    color: white;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    margin-right: 3cap;
+    margin-bottom: 3cap;
+}
+
+.lof {
+    margin-left: 51cap;
+    width: 40cap;
+    height: 5cap;
+    margin-bottom: 0,5cap;
+}
+
+.ws {
+    color: rgb(199, 199, 199);
+    padding: 6px;
+    width: 50px;
+    height: 10px;
+    font-size: 18px;
+    margin-left: 1cap;
+}
+
+.wss {
+    color: rgb(199, 199, 199);
+    padding: 6px;
+    width: 50px;
+    height: 10px;
+    font-size: 18px;
+    margin-left: 1cap;
+}
+
+.wsd {
+    color: rgb(199, 199, 199);
+    padding: 6px;
+    width: 50px;
+    height: 10px;
+    font-size: 18px;
+    margin-left: 1cap;
+}
+
+.wsf {
+    color: rgb(199, 199, 199);
+    padding: 6px;
+    width: 50px;
+    height: 10px;
+    font-size: 18px;
+    margin-left: 1cap;
+}
+
+.wsc {
+    color: rgb(199, 199, 199);
+    padding: 6px;
+    width: 50px;
+    height: 10px;
+    font-size: 18px;
+    margin-left: 1cap;
+}
+
+.wsz {
+    color: rgb(199, 199, 199);
+    padding: 6px;
+    width: 50px;
+    height: 10px;
+    font-size: 18px;
+    margin-left: 1cap;
+}
+
+.poz {
+text-align: center;
+color: gray;
+font-size: 13px;
+margin-bottom: 5cap;
+margin-left: 60cap;
+}
+
+@media (max-width:900px) {
+    body {
+        background-size: 100% 600px;
+    }
+}

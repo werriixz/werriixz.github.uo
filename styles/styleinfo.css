@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url('https://webstatic.hoyoverse.com/upload/op-public/2022/02/08/797bff9acd32630c3417c73bba2ebbc4_4574470009284212707.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 700px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.conteiner {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 10px 0;
+}
+
+.HOYOVERSE {
+    width: 230px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header nav {
+    float: right;
+    width: 40%;
+}
+
+a:hover {
+    color: rgb(79, 120, 255);
+}
+
+
+
+a.active {
+    color: rgb(79, 120, 255);
+    font-weight: bold;
+    text-decoration: underline;
+    border-bottom-width: 2px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    height: 50px
+}
+
+header nav ul li a {
+    color: white;
+}
+
+h1 {
+    margin-top: 3cap;
+    color: white;
+    text-shadow: 1px 1px 7px rgba(1, 0, 0, 1);
+    font-size: 10cap;
+}
+
+h2 {
+    margin-bottom: 2cap;
+    color: white;
+    text-shadow: 1px 1px 7px rgba(1, 0, 0, 1);
+    font-size: 5cap;
+}
+
+.zag {
+    text-align: center;
+}
+
+p {
+    margin-top: 23cap;
+    text-align: justify;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+h3 {
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.two {
+    margin-top: 1cap;
+}
+
+.tree {
+    margin-top: 1cap;
+}
+
+.four {
+    margin-top: 3cap;
+}
+
+.five {
+    margin-top: 3cap;
+}
+
+.r {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 1cap;
+    display: inline-block;
+}
+
+.e {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 1cap;
+    display: inline-block;
+}
+
+.w {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 1cap;
+    display: inline-block;
+}
+
+.q {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 1cap;
+    display: inline-block;
+}
+
+.a {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 1cap;
+    display: inline-block;
+}
+
+.s {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 1cap;
+    display: inline-block;
+}
+
+.d {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 1cap;
+    display: inline-block;
+}
+
+.f {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 1cap;
+    display: inline-block;
+}
+
+.t {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 1cap;
+    display: inline-block;
+}
+
+.ddd {
+    font-size: 30px;
+}
+
+.tee {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.ryy {
+    background: linear-gradient(70deg, rgb(0, 0, 0), rgb(53, 53, 53));
+    margin-top: 10cap;
+    margin-bottom: 2cap;
+}
+
+.pqq {
+    margin-left: 30cap;
+    margin-top: 5cap;
+    color: white;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    margin-right: 3cap;
+    margin-bottom: 3cap;
+}
+
+.lof {
+    margin-left: 51cap;
+    width: 40cap;
+    height: 5cap;
+    margin-bottom: 0,5cap;
+}
+
+.ws {
+    color: rgb(199, 199, 199);
+    padding: 6px;
+    width: 50px;
+    height: 10px;
+    font-size: 18px;
+    margin-left: 1cap;
+}
+
+.wss {
+    color: rgb(199, 199, 199);
+    padding: 6px;
+    width: 50px;
+    height: 10px;
+    font-size: 18px;
+    margin-left: 1cap;
+}
+
+.wsd {
+    color: rgb(199, 199, 199);
+    padding: 6px;
+    width: 50px;
+    height: 10px;
+    font-size: 18px;
+    margin-left: 1cap;
+}
+
+.wsf {
+    color: rgb(199, 199, 199);
+    padding: 6px;
+    width: 50px;
+    height: 10px;
+    font-size: 18px;
+    margin-left: 1cap;
+}
+
+.wsc {
+    color: rgb(199, 199, 199);
+    padding: 6px;
+    width: 50px;
+    height: 10px;
+    font-size: 18px;
+    margin-left: 1cap;
+}
+
+.wsz {
+    color: rgb(199, 199, 199);
+    padding: 6px;
+    width: 50px;
+    height: 10px;
+    font-size: 18px;
+    margin-left: 1cap;
+}
+
+.poz {
+text-align: center;
+color: gray;
+font-size: 13px;
+margin-bottom: 5cap;
+margin-top: 10px;
+margin-left: 20cap;
+}
+
+@media (max-width: 900px) {
+body {
+    background-image: url('https://webstatic.hoyoverse.com/upload/op-public/2022/02/08/797bff9acd32630c3417c73bba2ebbc4_4574470009284212707.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 400px;
+}
+
+    h1 {
+    margin-top: 2.2cap;
+    color: white;
+    text-shadow: 1px 1px 7px rgba(1, 0, 0, 1);
+    font-size: 6cap;
+}
+
+h2 {
+    margin-bottom: 5cap;
+    color: white;
+    text-shadow: 1px 1px 7px rgba(1, 0, 0, 1);
+    font-size: 2cap;
+}
+
+p {
+    margin-top:19cap;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+h3 {
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.r {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 1cap;
+    display: inline-block;
+}
+
+.e {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 1cap;
+    display: inline-block;
+}
+
+.w {
+   margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 1cap;
+    display: inline-block;
+}
+
+.q {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 1cap;
+    display: inline-block;
+}
+
+.a {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 1cap;
+    display: inline-block;
+}
+
+.s {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 1cap;
+    display: inline-block;
+}
+
+.d {
+   margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 1cap;
+    display: inline-block;
+}
+
+.f {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 1cap;
+    display: inline-block;
+}
+
+.t {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 1cap;
+    display: inline-block;
+}
+
+.conteiner {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.HOYOVERSE {
+    width: 150px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: -30px;
+}
+
+
+}
